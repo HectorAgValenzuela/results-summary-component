@@ -1,16 +1,12 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&display=swap');
-
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
     background-color: hsl(0, 0%, 100%);
     margin: 0;
     padding: 0;
-
-
 }
 
 main {
@@ -19,8 +15,54 @@ main {
     justify-content: center;
 }
 
+.result-section {
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0 0 30px 30px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
 
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
 
+.result-title {
+    font-weight: 700;
+    color: hsla(241, 100%, 89%, 60%);
+    margin-bottom: 20px;
+}
+
+.result-circle h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+    margin-top: 18px;
+    margin-bottom: 2px;
+}
+
+.result-circle {
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 120px; 
+    height: 120px; 
+    color: hsla(241, 100%, 89%, 60%);
+    font-size: 14px;
+}
+
+.result-bottom h3 {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+
+.result-bottom p{
+    font-weight: 200;
+    font-size: 14px;
+    color: hsla(241, 100%, 89%, 80%);
+    margin: 0;
+    width: 250px; 
+    margin-bottom: 30px;
+ }
 
 @media (min-width: 850px) {
 
