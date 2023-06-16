@@ -15,6 +15,10 @@ main {
     justify-content: center;
 }
 
+main a{
+    text-align: center;
+}
+
 /* ****************************** */
 /* ******* Result Section ******* */
 /* ****************************** */
@@ -79,18 +83,19 @@ main {
 
     display: flex;
     flex-flow: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 .summary-section h4{
-    margin: 15px 0px; 
+    font-size: 16px;
+    margin: 15px 0 0 0; 
     font-weight: 700;
 }
 
 /* Reaction acticle */
 
 .reaction-article {
-    background-color: hsla(0, 100%, 67%, 10%);
+    background-color: hsla(0, 100%, 67%, 5%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -127,7 +132,7 @@ main {
 /* Memory article */
 
 .memory-article {
-    background-color: hsla(39, 100%, 56%, 10%);
+    background-color: hsla(39, 100%, 56%, 5%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -164,7 +169,7 @@ main {
 /* Verbal article */
 
 .verbal-article {
-    background-color: hsla(166, 100%, 37%, 10%);
+    background-color: hsla(166, 100%, 37%, 5%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -201,7 +206,7 @@ main {
 /* Visual article */
 
 .visual-article {
-    background-color: hsla(234, 85%, 45%, 10%);
+    background-color: hsla(234, 85%, 45%, 5%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -239,7 +244,16 @@ main {
 /* ******* Button ******* */
 /* ****************************** */
 
-
+main a{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 40px;
+}
 
 @media (min-width: 850px) {
 
