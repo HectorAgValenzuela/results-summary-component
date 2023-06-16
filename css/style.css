@@ -15,10 +15,6 @@ main {
     justify-content: center;
 }
 
-main a{
-    text-align: center;
-}
-
 /* ****************************** */
 /* ******* Result Section ******* */
 /* ****************************** */
@@ -241,20 +237,22 @@ main a{
 }
 
 /* ****************************** */
-/* ******* Button ******* */
+/* *********** Button *********** */
 /* ****************************** */
 
-main a{
+.summary-section a{
     font-size: 16px;
     text-align: center;
     text-decoration: none;
     color: white;
     background-color: hsl(224, 30%, 27%);
-    margin: 20px;
+    margin: 10px 0;
     padding: 15px;
     border-radius: 40px;
 }
 
 @media (min-width: 850px) {
-
+    main {
+        flex-flow: row wrap;
+    }
 }
