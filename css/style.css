@@ -1,0 +1,27 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+
+
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+
+
+
+@media (min-width: 850px) {
+
+}
