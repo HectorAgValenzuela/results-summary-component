@@ -15,6 +15,10 @@ main {
     justify-content: center;
 }
 
+/* ****************************** */
+/* ******* Result Section ******* */
+/* ****************************** */
+
 .result-section {
     background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 0 0 30px 30px;
@@ -63,6 +67,179 @@ main {
     width: 250px; 
     margin-bottom: 30px;
  }
+
+/* ****************************** */
+/* ******* Summary Section ******* */
+/* ****************************** */
+
+.summary-section {
+    background-color: hsl(0, 0%, 100%);
+
+    margin: 0px 20px;
+
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.summary-section h4{
+    margin: 15px 0px; 
+    font-weight: 700;
+}
+
+/* Reaction acticle */
+
+.reaction-article {
+    background-color: hsla(0, 100%, 67%, 10%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.reaction-article .reaction {
+    color: hsl(0, 100%, 67%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.reaction-article .points {
+    color: hsla(0, 0%, 0%, 50%);
+}
+
+.reaction-article .points p{
+    padding: 0;
+    margin: 0;
+}
+
+.reaction-article .points p strong{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+/* Memory article */
+
+.memory-article {
+    background-color: hsla(39, 100%, 56%, 10%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.memory-article .memory {
+    color: hsl(39, 100%, 56%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.memory-article .points {
+    color: hsla(0, 0%, 0%, 50%);
+}
+
+.memory-article .points p{
+    padding: 0;
+    margin: 0;
+}
+
+.memory-article .points p strong{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+/* Verbal article */
+
+.verbal-article {
+    background-color: hsla(166, 100%, 37%, 10%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.verbal-article .verbal {
+    color: hsl(166, 100%, 37%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.verbal-article .points {
+    color: hsla(0, 0%, 0%, 50%);
+}
+
+.verbal-article .points p{
+    padding: 0;
+    margin: 0;
+}
+
+.verbal-article .points p strong{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+/* Visual article */
+
+.visual-article {
+    background-color: hsla(234, 85%, 45%, 10%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.visual-article .visual {
+    color: hsl(234, 85%, 45%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.visual-article .points {
+    color: hsla(0, 0%, 0%, 50%);
+}
+
+.visual-article .points p{
+    padding: 0;
+    margin: 0;
+}
+
+.visual-article .points p strong{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+/* ****************************** */
+/* ******* Button ******* */
+/* ****************************** */
+
+
 
 @media (min-width: 850px) {
 
