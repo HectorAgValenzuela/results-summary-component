@@ -232,16 +232,16 @@ article {
 }
 
 /* ****************************** */
-/* *********** Desktop *********** */
+/* *********** Desktop ********** */
 /* ****************************** */
 
 @media (min-width: 850px) {
     main {
-        flex-flow: row wrap;
-        margin-bottom: 15px;
+        flex-flow: row;
+        margin: 0 auto;
     }
+
     body {
-        margin-top: 50px;
     }
 
     .result-section {
@@ -274,9 +274,9 @@ article {
         gap: 10px;
         box-shadow: 0 4px 4px 0px rgba(0,0,0,0.2);
         border-radius: 0 30px 30px 0;
-        width: 15%;
-        /* max-width: 20%; */
-        margin: 0;
+        min-width: 15%;
+        max-width: 20%;
+        margin: 0 0 0 10px;
         padding: 0 20px 20px 55px;
     }
     
