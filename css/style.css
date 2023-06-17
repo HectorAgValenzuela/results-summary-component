@@ -231,6 +231,10 @@ article {
     border-radius: 40px;
 }
 
+.summary-section a:hover{
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
 /* ****************************** */
 /* *********** Desktop ********** */
 /* ****************************** */
@@ -247,7 +251,6 @@ article {
     .result-section {
         border-radius: 30px 30px 30px 30px;
         width: 250px;
-        position: relative;
         position: relative;
         transform: translateX(15%);
     }
