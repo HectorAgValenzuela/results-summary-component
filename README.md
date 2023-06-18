@@ -30,8 +30,7 @@ Users should be able to:
 
 ![Desktop version](screenshots/desktop.jpg)
 
-![Mobile version](screenshots/mobile.jpg)
-
+![Mobile version](screenshots/mobile.png)
 
 ### Links
 
