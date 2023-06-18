@@ -26,12 +26,12 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
+#### Desktop
+<img src="screenshots/desktop.jpg" alt="Desktop version" style="text-align: center;">
 
-<div style="display: flex; flex-flow: row">
-  <img src="screenshots/desktop.jpg" alt="Desktop version" style="width: 50%;">
-  <img src="screenshots/mobile.png" alt="Mobile version" style="width: 50%;">
-</div>
+#### Mobile
+<img src="screenshots/mobile.png" alt="Mobile version" style="text-align: center;">
 
 ### Links
 
