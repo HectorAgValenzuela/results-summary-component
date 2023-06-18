@@ -28,9 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop version](.screenshots/desktop.jpg)
+![Desktop version](screenshots/desktop.jpg)
 
-![Mobile version](.screenshots/mobile.jpg)
+![Mobile version](screenshots/mobile.jpg)
+
 
 ### Links
 
