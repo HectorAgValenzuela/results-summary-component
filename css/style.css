@@ -113,12 +113,6 @@ article {
     font-weight: 400;
 }
 
-.reaction-article .points p strong{
-    color: black;
-    padding: 0;
-    margin: 0;
-}
-
 /* Memory article */
 
 .memory-article {
@@ -131,12 +125,6 @@ article {
     align-items: center;
     gap: 10px;
     font-weight: 400;
-}
-
-.memory-article .points p strong{
-    color: black;
-    padding: 0;
-    margin: 0;
 }
 
 /* Verbal article */
@@ -153,12 +141,6 @@ article {
     font-weight: 400;
 }
 
-.verbal-article .points p strong{
-    color: black;
-    padding: 0;
-    margin: 0;
-}
-
 /* Visual article */
 
 .visual-article {
@@ -173,12 +155,6 @@ article {
     font-weight: 400;
 }
 
-.visual-article .points p strong{
-    color: black;
-    padding: 0;
-    margin: 0;
-}
-
 /* ****************************** */
 /* *********** Score ************ */
 /* ****************************** */
@@ -188,6 +164,12 @@ article {
 }
 
 .points p{
+    padding: 0;
+    margin: 0;
+}
+
+.points p strong{
+    color: black;
     padding: 0;
     margin: 0;
 }
