@@ -50,8 +50,17 @@ fetch('data.json')
         </div>
         <div class="points"> <p><strong>${categoryVisual.score}</strong> / 100</p> </div>
         `
+
+        // Result section
+        result = calculateResult(categoryReaction.score, categoryMemory.score, categoryVerbal.score, categoryVisual.score)
+        const jsonResultElement = document.getElementById('result')
+        jsonResultElement.innerHTML = 
+        `${result}`
     })
     .catch(error => {
         console.error('Error:', error);
     })
 
+function calculateResult(score1, score2, score3, score4){
+    return Math.floor((score1+score2+score3+score4)/4)
+}
