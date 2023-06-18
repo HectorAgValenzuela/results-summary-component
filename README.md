@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-<div style="display: flex;">
+<div style="display: flex; flex-flow: row">
   <img src="screenshots/desktop.jpg" alt="Desktop version" style="width: 50%;">
   <img src="screenshots/mobile.png" alt="Mobile version" style="width: 50%;">
 </div>
