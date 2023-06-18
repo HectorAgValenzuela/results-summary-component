@@ -65,5 +65,5 @@ I utilized flexbox and familiarized myself with the parent-child structure to cr
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/HectorAgValenzuela)
-- Twitter - [@yourusername](https://twitter.com/DINO_3_14)
+- Frontend Mentor - [@HectorAgValenzuela](https://www.frontendmentor.io/profile/HectorAgValenzuela)
+- Twitter - [@DINO_3_14](https://twitter.com/DINO_3_14)
