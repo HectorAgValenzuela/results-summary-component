@@ -113,15 +113,6 @@ article {
     font-weight: 400;
 }
 
-.reaction-article .points {
-    color: hsla(0, 0%, 0%, 50%);
-}
-
-.reaction-article .points p{
-    padding: 0;
-    margin: 0;
-}
-
 .reaction-article .points p strong{
     color: black;
     padding: 0;
@@ -140,15 +131,6 @@ article {
     align-items: center;
     gap: 10px;
     font-weight: 400;
-}
-
-.memory-article .points {
-    color: hsla(0, 0%, 0%, 50%);
-}
-
-.memory-article .points p{
-    padding: 0;
-    margin: 0;
 }
 
 .memory-article .points p strong{
@@ -171,15 +153,6 @@ article {
     font-weight: 400;
 }
 
-.verbal-article .points {
-    color: hsla(0, 0%, 0%, 50%);
-}
-
-.verbal-article .points p{
-    padding: 0;
-    margin: 0;
-}
-
 .verbal-article .points p strong{
     color: black;
     padding: 0;
@@ -200,17 +173,21 @@ article {
     font-weight: 400;
 }
 
-.visual-article .points {
-    color: hsla(0, 0%, 0%, 50%);
-}
-
-.visual-article .points p{
+.visual-article .points p strong{
+    color: black;
     padding: 0;
     margin: 0;
 }
 
-.visual-article .points p strong{
-    color: black;
+/* ****************************** */
+/* *********** Score ************ */
+/* ****************************** */
+
+.points {
+    color: hsla(0, 0%, 0%, 50%);
+}
+
+.points p{
     padding: 0;
     margin: 0;
 }
