@@ -28,9 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop version](screenshots/desktop.jpg)
-
-![Mobile version](screenshots/mobile.png)
+<div style="display: flex;">
+  <img src="screenshots/desktop.jpg" alt="Desktop version" style="width: 50%;">
+  <img src="screenshots/mobile.png" alt="Mobile version" style="width: 50%;">
+</div>
 
 ### Links
 
