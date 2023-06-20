@@ -106,7 +106,7 @@ article {
     background-color: hsla(0, 100%, 67%, 5%);
 }
 
-.reaction-article .reaction {
+.reaction-article .Reaction {
     color: hsl(0, 100%, 67%);
     display: flex;
     align-items: center;
@@ -120,7 +120,7 @@ article {
     background-color: hsla(39, 100%, 56%, 5%);
 }
 
-.memory-article .memory {
+.memory-article .Memory {
     color: hsl(39, 100%, 56%);
     display: flex;
     align-items: center;
@@ -134,7 +134,7 @@ article {
     background-color: hsla(166, 100%, 37%, 5%);
 }
 
-.verbal-article .verbal {
+.verbal-article .Verbal {
     color: hsl(166, 100%, 37%);
     display: flex;
     align-items: center;
@@ -148,7 +148,7 @@ article {
     background-color: hsla(234, 85%, 45%, 5%);
 }
 
-.visual-article .visual {
+.visual-article .Visual {
     color: hsl(234, 85%, 45%);
     display: flex;
     align-items: center;
